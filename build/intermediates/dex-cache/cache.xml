@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Uni\VSemestre\Reque\Proyecto 1\Tasty v0\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="D:\Uni\VSemestre\Reque\Proyecto 1\Tasty v0\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi_2fc558bcab349f95d53329ac326179c1f85cd221.jar" />
+    </item>
+
+</items>
