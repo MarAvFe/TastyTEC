@@ -78,4 +78,23 @@
         android:layout_alignBottom="@+id/textView1"
         android:layout_alignEnd="@+id/textView1"
         android:clickable="true" />
+
+    <TextView
+        android:id="@+id/val1"
+        android:text="@string/val1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:id="@+id/val2"
+        android:text="@string/val2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/val1"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp" />
+
 </RelativeLayout>
