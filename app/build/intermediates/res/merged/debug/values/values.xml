@@ -286,6 +286,8 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
+    <string name="content_label">content_label</string>
+    <string name="id_label">id_label</string>
     <string name="ingredients">2 tablespoons canola oil \n
                                 1 red pepper, diced \n
                                 1 green pepper, diced \n
@@ -310,6 +312,8 @@
     <string name="recetatitle">This Is The Only Way You Should Be Stuffing Your Chicken</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="title_activity_main2">Main2Activity</string>
+    <string name="val1">val1</string>
+    <string name="val2">val2</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>

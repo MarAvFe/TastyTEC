@@ -1,10 +1,14 @@
 [
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\color-v23\\abc_color_highlight_material.xml"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\color-v23\\abc_color_highlight_material.xml"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/color-v23/abc_color_highlight_material.xml"
     }
 ]
