@@ -1,26 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
-    },
-    {
         "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
         "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
         "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     }
 ]

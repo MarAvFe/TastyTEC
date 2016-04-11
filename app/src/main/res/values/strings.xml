@@ -28,6 +28,8 @@
                                 1 teaspoon Kosher salt \n
                                 1 teaspoon freshly ground black pepper \n
                                 4 ounces cream cheese \n</string>
-
-
+    <string name="id_label">id_label</string>
+    <string name="content_label">content_label</string>
+    <string name="val2">val2</string>
+    <string name="val1">val1</string>
 </resources>
