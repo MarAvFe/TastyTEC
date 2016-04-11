@@ -2310,6 +2310,7 @@ containing a value of this type.
         public static final int always=0x7f0c0033;
         public static final int beginning=0x7f0c0031;
         public static final int bottom=0x7f0c001d;
+        public static final int btnCompartir=0x7f0c0078;
         public static final int buttonFavorite=0x7f0c006e;
         public static final int buttonNew=0x7f0c006d;
         public static final int buttonPanel=0x7f0c0044;
@@ -2356,7 +2357,6 @@ containing a value of this type.
         public static final int ifRoom=0x7f0c0035;
         public static final int image=0x7f0c003f;
         public static final int imageView=0x7f0c0081;
-        public static final int imageViewFace=0x7f0c0078;
         public static final int imageViewFav=0x7f0c0077;
         public static final int info=0x7f0c008d;
         public static final int item_touch_helper_previous_elevation=0x7f0c0005;
@@ -2547,18 +2547,19 @@ containing a value of this type.
         public static final int bottom_sheet_behavior=0x7f060017;
         public static final int character_counter_pattern=0x7f060018;
         public static final int content_label=0x7f060019;
-        public static final int id_label=0x7f06001a;
-        public static final int ingredients=0x7f06001b;
-        public static final int ingredientstitle=0x7f06001c;
-        public static final int navigation_drawer_close=0x7f06001d;
-        public static final int navigation_drawer_open=0x7f06001e;
-        public static final int preparation=0x7f06001f;
-        public static final int preparationtitle=0x7f060020;
-        public static final int recetatitle=0x7f060021;
+        public static final int direccionURL=0x7f06001a;
+        public static final int id_label=0x7f06001b;
+        public static final int ingredients=0x7f06001c;
+        public static final int ingredientstitle=0x7f06001d;
+        public static final int navigation_drawer_close=0x7f06001e;
+        public static final int navigation_drawer_open=0x7f06001f;
+        public static final int preparation=0x7f060020;
+        public static final int preparationtitle=0x7f060021;
+        public static final int recetatitle=0x7f060022;
         public static final int status_bar_notification_info_overflow=0x7f060013;
-        public static final int title_activity_main2=0x7f060022;
-        public static final int val1=0x7f060023;
-        public static final int val2=0x7f060024;
+        public static final int title_activity_main2=0x7f060023;
+        public static final int val1=0x7f060024;
+        public static final int val2=0x7f060025;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f090088;

@@ -287,6 +287,7 @@
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="content_label">content_label</string>
+    <string name="direccionURL">http://www.youtube.com</string>
     <string name="id_label">id_label</string>
     <string name="ingredients">2 tablespoons canola oil \n
                                 1 red pepper, diced \n
