@@ -1,6 +1,8 @@
 package com.example.josti.tasty;
 
+import android.content.Context;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
@@ -10,20 +12,40 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Layout;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
-public class MainActivity extends AppCompatActivity implements OnClickListener, NavigationView.OnNavigationItemSelectedListener {
-        Button buttonMore;
+public class MainActivity extends AppCompatActivity {
+    Button buttonMore;
+    ArrayList<String> data = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ListView lv = (ListView) findViewById(R.id.listView);
+        loadRecipeDefault();
+        lv.setAdapter(new AdapterListView(this, R.layout.recipe_item, data));
+
+        /*
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         buttonMore = (Button) findViewById(R.id.buttonMore);
@@ -38,6 +60,14 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        */
+    }
+
+    private void loadRecipeDefault(){
+        for (int i = 0;i < 55; i ++){
+            data.add("This row number is " + i);
+        }
+
     }
 
     @Override
@@ -59,9 +89,6 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
@@ -72,28 +99,52 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
         return super.onOptionsItemSelected(item);
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
-    @Override
-    public boolean onNavigationItemSelected(MenuItem item) {
-        // Handle navigation view item clicks here.
-        int id = item.getItemId();
+    private class AdapterListView extends ArrayAdapter<String> {
+        private int layout;
 
+        public AdapterListView(Context context, int resource, List<String> objects) {
+            super(context, resource, objects);
+            layout = resource;
 
+        }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        drawer.closeDrawer(GravityCompat.START);
-        return true;
+        @Override
+        public View getView(final int position, View convertView, ViewGroup parent) {
+            ViewHolder mainViewHolder = null;
+            if (convertView == null){
+                LayoutInflater inflater = LayoutInflater.from(getContext());
+                convertView =  inflater.inflate(layout,parent,false);
+                ViewHolder viewHolder = new ViewHolder();
+                viewHolder.thumbnail = (ImageView) convertView.findViewById(R.id.thumbnail);
+                viewHolder.title = (TextView) convertView.findViewById(R.id.title);
+                viewHolder.description = (TextView) convertView.findViewById(R.id.description);
+                viewHolder.frame = (RelativeLayout) convertView.findViewById(R.id.frame);
+                viewHolder.frame.setOnClickListener(new OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        switch (v.getId()){
+                            case R.id.frame:
+                                Intent intent = new Intent(MainActivity.this,Main2Activity.class);
+                                startActivity(intent);
+                                break;
+                        }
+                    }
+                });
+                convertView.setTag(viewHolder);
+            }else{
+                mainViewHolder = (ViewHolder) convertView.getTag();
+                mainViewHolder.title.setText(getItem(position));
+                mainViewHolder.description.setText(getItem(position));
+            }
+            return convertView;
+        }
     }
 
-    @Override
-    public void onClick(View v) {
-        switch (v.getId()){
+    public class ViewHolder{
+        ImageView thumbnail;
+        TextView title;
+        TextView description;
+        RelativeLayout frame;
 
-            case R.id.buttonMore:
-
-                Intent intent1 = new Intent(MainActivity.this,Main2Activity.class);
-                startActivity(intent1);
-                break;
-        }
     }
 }
