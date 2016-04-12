@@ -15,17 +15,25 @@
             android:icon="@drawable/ic_favorite"
             android:title="Favorite" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_categories"
-            android:title="Categories" />
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_info"
+            android:title="About" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Categories">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_info"
-                android:title="About" />
+                android:id="@+id/nav_drinks"
+                android:icon="@drawable/ic_new"
+                android:title="Drinks" />
+            <item
+                android:id="@+id/nav_desserts"
+                android:icon="@drawable/ic_new"
+                android:title="Desserts" />
+            <item
+                android:id="@+id/nav_diners"
+                android:icon="@drawable/ic_new"
+                android:title="Dinners" />
 
         </menu>
     </item>

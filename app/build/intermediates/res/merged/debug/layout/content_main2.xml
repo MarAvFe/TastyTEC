@@ -19,7 +19,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.josti.tasty.Main2Activity"
+    tools:context=".ActivityRecipe"
     tools:showIn="@layout/activity_main2"
     android:weightSum="1"
     android:orientation="vertical">
@@ -30,7 +30,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/recetatitle"
         android:layout_marginTop="45dp"
-        android:id="@+id/textView2" />
+        android:id="@+id/recipeTitle" />
+
 
 
     <FrameLayout
@@ -60,7 +61,7 @@
         android:layout_height="wrap_content"
         android:text="@string/ingredients"
         android:layout_marginTop="20dp"
-        android:id="@+id/textView" />
+        android:id="@+id/ingredientes" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -76,7 +77,7 @@
         android:layout_height="wrap_content"
         android:text="@string/preparation"
         android:layout_marginTop="20dp"
-        android:id="@+id/textView5" />
+        android:id="@+id/preparation" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -87,20 +88,19 @@
             android:layout_height="match_parent"
             android:src="@mipmap/ic_star"
             android:id="@+id/imageViewFav"
-            android:layout_marginStart="102dp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true"
-            android:clickable="true" />
+            android:layout_marginStart="98dp"
+            android:clickable="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
 
-        <ImageView
+        <ImageButton
             android:layout_width="50dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCompartir"
             android:src="@mipmap/ic_facebook"
-            android:id="@+id/imageViewFace"
+            android:layout_marginStart="38dp"
             android:layout_alignParentTop="true"
-            android:layout_toEndOf="@+id/imageViewFav"
-            android:layout_marginStart="51dp"
-            android:clickable="true" />/>
+            android:layout_toEndOf="@+id/imageViewFav" />
 
     </RelativeLayout>
 

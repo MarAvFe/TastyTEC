@@ -46,55 +46,12 @@
         android:textColor="#FFFFFF"
         android:clickable="true" />
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/imageView2"
-        android:layout_below="@+id/buttonNew"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="20dp"
-        android:layout_toStartOf="@+id/buttonFavorite"
-        android:src="@mipmap/ic_fajitas" />
-
-    <TextView
+    <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="This Is The Only Way You Should Be Stuffing Your Chicken"
-        android:id="@+id/textView1"
-        android:layout_alignBottom="@+id/imageView2"
+        android:id="@+id/listView"
         android:layout_alignEnd="@+id/buttonTop"
-        android:layout_toEndOf="@+id/imageView2"
-        android:layout_alignTop="@+id/imageView2"
-        android:textSize="18dp"
-        android:paddingTop="10dp" />
-
-    <Button
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:text="More"
-        android:id="@+id/buttonMore"
-        android:layout_alignBottom="@+id/textView1"
-        android:layout_alignEnd="@+id/textView1"
-        android:clickable="true" />
-
-    <TextView
-        android:id="@+id/val1"
-        android:text="@string/val1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="200dp"
-        android:layout_marginLeft="50dp" />
-
-    <TextView
-        android:id="@+id/val2"
-        android:text="@string/val2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/val1"
-        android:layout_marginTop="250dp"
-        android:layout_marginLeft="50dp" />
+        android:layout_below="@+id/buttonNew"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

@@ -27,7 +27,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.josti.tasty.Main2Activity"
+            android:name="com.example.josti.tasty.ActivityRecipe"
             android:label="@string/title_activity_main2"
             android:parentActivityName="com.example.josti.tasty.MainActivity"
             android:theme="@style/AppTheme.NoActionBar" >

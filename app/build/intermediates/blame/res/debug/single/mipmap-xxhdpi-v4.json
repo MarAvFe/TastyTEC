@@ -1,15 +1,11 @@
 [
     {
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tasty.png",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tasty.png"
+    },
+    {
         "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_facebook.png",
         "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/mipmap-xxhdpi/ic_facebook.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_facebook.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_facebook.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_star.png",
@@ -20,40 +16,24 @@
         "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/mipmap-xxhdpi/ic_tasty.png"
     },
     {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_facebook.png",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_facebook.png"
     },
     {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_star.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_star.png"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_star.png",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_star.png"
     },
     {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_star.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_star.png"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_fajitas.png",
         "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/mipmap-xxhdpi/ic_fajitas.png"
     },
     {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_fajitas.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fajitas.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_facebook.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_facebook.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tasty.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tasty.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_fajitas.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\Tasty v0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fajitas.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_tasty.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\AndroidStudioProjects\\Tasty\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_tasty.png"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_fajitas.png",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_fajitas.png"
     },
     {
         "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
