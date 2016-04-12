@@ -20,6 +20,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -38,8 +39,9 @@ import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
-    Button buttonMore;
-    ArrayList<String> data = new ArrayList<String>();
+    ArrayList<String> dataDescription = new ArrayList<String>();
+    ArrayList<String> dataName = new ArrayList<String>();
+    AdapterListView adapterListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,29 +50,68 @@ public class MainActivity extends AppCompatActivity {
 
         ListView lv = (ListView) findViewById(R.id.listView);
         loadRecipeDefault();
-        lv.setAdapter(new AdapterListView(this, R.layout.recipe_item, data));
+        adapterListView = new AdapterListView(this, R.layout.recipe_item, dataName);
+        lv.setAdapter(adapterListView);
+
+        Button buttonNew = (Button) findViewById(R.id.buttonNew);
+        buttonNew.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dataName.clear();
+                dataDescription.clear();
+                for (int i = 0; i < 55; i++) {
+                    dataName.add("New " + i);
+                    dataDescription.add("adsadasda sadasdads a" + i);
+                }
+                adapterListView.notifyDataSetInvalidated();
+            }
+        });
+        Button buttonFavorite = (Button) findViewById(R.id.buttonFavorite);
+        buttonFavorite.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dataName.clear();
+                dataDescription.clear();
+                for (int i = 0;i < 55; i ++){
+                    dataName.add("Favorite " + i);
+                    dataDescription.add("adsadasda sadasdads a" + i);
+                }
+                adapterListView.notifyDataSetInvalidated();
+            }
+        });
+        Button buttonTop = (Button) findViewById(R.id.buttonTop);
+        buttonTop.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dataName.clear();
+                dataDescription.clear();
+                for (int i = 0;i < 55; i ++){
+                    dataName.add("Top " + i);
+                    dataDescription.add("adsadasda sadasdads a" + i);
+                }
+                adapterListView.notifyDataSetInvalidated();
+            }
+        });
+
+
 
         /*
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-        buttonMore = (Button) findViewById(R.id.buttonMore);
-        buttonMore.setOnClickListener(this);
+        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(MainActivity.this, "List item was clicked at " + position, Toast.LENGTH_SHORT).show();
+            }
 
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
+        });
         */
+
     }
 
     private void loadRecipeDefault(){
         for (int i = 0;i < 55; i ++){
-            data.add("This row number is " + i);
+            dataName.add("Name " + i);
+            dataDescription.add("adsadasda sadasdads adadsad asdadasad adasdadsada dsa" + i);
         }
 
     }
@@ -106,11 +147,10 @@ public class MainActivity extends AppCompatActivity {
 
     private class AdapterListView extends ArrayAdapter<String> {
         private int layout;
-
-        public AdapterListView(Context context, int resource, List<String> objects) {
+        private ArrayList<String> arr;
+        public AdapterListView(Context context, int resource, ArrayList<String> objects) {
             super(context, resource, objects);
             layout = resource;
-
         }
 
         @Override
@@ -123,24 +163,21 @@ public class MainActivity extends AppCompatActivity {
                 viewHolder.thumbnail = (ImageView) convertView.findViewById(R.id.thumbnail);
                 viewHolder.title = (TextView) convertView.findViewById(R.id.title);
                 viewHolder.description = (TextView) convertView.findViewById(R.id.description);
-                viewHolder.frame = (RelativeLayout) convertView.findViewById(R.id.frame);
-                viewHolder.frame.setOnClickListener(new OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        switch (v.getId()){
-                            case R.id.frame:
-                                Intent intent = new Intent(MainActivity.this,Main2Activity.class);
-                                startActivity(intent);
-                                break;
-                        }
-                    }
-                });
+                viewHolder.button = (Button) convertView.findViewById(R.id.buttonMore);
                 convertView.setTag(viewHolder);
-            }else{
-                mainViewHolder = (ViewHolder) convertView.getTag();
-                mainViewHolder.title.setText(getItem(position));
-                mainViewHolder.description.setText(getItem(position));
             }
+            mainViewHolder = (ViewHolder) convertView.getTag();
+            mainViewHolder.button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Toast.makeText(getContext(), dataName.get(position), Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this,Main2Activity.class);
+                    intent.putExtra("RecipeName",dataName.get(position));
+                    startActivity(intent);
+                }
+            });
+            mainViewHolder.title.setText(dataName.get(position));
+            mainViewHolder.description.setText(dataDescription.get(position));
             return convertView;
         }
     }
@@ -149,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView thumbnail;
         TextView title;
         TextView description;
-        RelativeLayout frame;
+        Button button;
 
     }
 

@@ -9,6 +9,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
@@ -24,8 +25,10 @@ public class Main2Activity extends YouTubeBaseActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
+        Bundle extras = getIntent().getExtras();
+        TextView title = (TextView) findViewById(R.id.recipeTitle);
+        title.setText(extras.getString("RecipeName"));
+
         compartirUrl="http://www.youtube.com";
 
         ImageButton btnCompartir;

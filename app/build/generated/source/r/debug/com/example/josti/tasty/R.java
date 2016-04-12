@@ -2304,7 +2304,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0c0057;
         public static final int action_mode_bar_stub=0x7f0c0056;
         public static final int action_mode_close_button=0x7f0c003c;
-        public static final int action_settings=0x7f0c0097;
+        public static final int action_settings=0x7f0c0098;
         public static final int activity_chooser_view_content=0x7f0c003d;
         public static final int alertTitle=0x7f0c0049;
         public static final int always=0x7f0c0033;
@@ -2312,6 +2312,7 @@ containing a value of this type.
         public static final int bottom=0x7f0c001d;
         public static final int btnCompartir=0x7f0c0078;
         public static final int buttonFavorite=0x7f0c006e;
+        public static final int buttonMore=0x7f0c0092;
         public static final int buttonNew=0x7f0c006d;
         public static final int buttonPanel=0x7f0c0044;
         public static final int buttonTop=0x7f0c006f;
@@ -2370,11 +2371,11 @@ containing a value of this type.
         public static final int middle=0x7f0c0032;
         public static final int mini=0x7f0c0030;
         public static final int multiply=0x7f0c0027;
-        public static final int nav_camera=0x7f0c0092;
-        public static final int nav_gallery=0x7f0c0093;
-        public static final int nav_manage=0x7f0c0095;
-        public static final int nav_share=0x7f0c0096;
-        public static final int nav_slideshow=0x7f0c0094;
+        public static final int nav_camera=0x7f0c0093;
+        public static final int nav_gallery=0x7f0c0094;
+        public static final int nav_manage=0x7f0c0096;
+        public static final int nav_share=0x7f0c0097;
+        public static final int nav_slideshow=0x7f0c0095;
         public static final int nav_view=0x7f0c006a;
         public static final int navigation_header_container=0x7f0c007c;
         public static final int never=0x7f0c0036;
@@ -2386,6 +2387,7 @@ containing a value of this type.
         public static final int progress_circular=0x7f0c0006;
         public static final int progress_horizontal=0x7f0c0007;
         public static final int radio=0x7f0c0054;
+        public static final int recipeTitle=0x7f0c0071;
         public static final int right=0x7f0c0024;
         public static final int screen=0x7f0c0028;
         public static final int scroll=0x7f0c0018;
@@ -2393,7 +2395,7 @@ containing a value of this type.
         public static final int scrollIndicatorUp=0x7f0c004b;
         public static final int scrollView=0x7f0c004c;
         public static final int scrollable=0x7f0c0039;
-        public static final int search=0x7f0c0098;
+        public static final int search=0x7f0c0099;
         public static final int search_badge=0x7f0c005e;
         public static final int search_bar=0x7f0c005d;
         public static final int search_button=0x7f0c005f;
@@ -2425,7 +2427,6 @@ containing a value of this type.
         public static final int text2=0x7f0c008a;
         public static final int textSpacerNoButtons=0x7f0c004d;
         public static final int textView=0x7f0c0074;
-        public static final int textView2=0x7f0c0071;
         public static final int textView3=0x7f0c0073;
         public static final int textView4=0x7f0c0075;
         public static final int textView5=0x7f0c0076;

@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="122dp"
+        android:layout_height="156dp"
         android:layout_below="@+id/buttonNew"
         android:layout_alignParentStart="true"
-        android:id="@+id/frame" >
+        android:id="@+id/frame"
+        android:layout_weight="0.14">
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/title"
             android:text="Chicken"
+            android:layout_alignParentTop="true"
             android:layout_toEndOf="@+id/thumbnail" />
 
         <TextView
@@ -25,18 +28,27 @@
             android:id="@+id/description"
             android:textSize="18dp"
             android:paddingTop="10dp"
-            android:layout_alignParentBottom="true"
+            android:layout_below="@+id/title"
             android:layout_alignParentEnd="true"
-            android:layout_toEndOf="@+id/thumbnail"
-            android:layout_below="@+id/title" />
+            android:layout_above="@+id/buttonMore"
+            android:layout_toEndOf="@+id/thumbnail" />
 
         <ImageView
-            android:layout_width="100dp"
+            android:layout_width="120dp"
             android:layout_height="100dp"
             android:id="@+id/thumbnail"
             android:src="@mipmap/ic_fajitas"
-            android:layout_alignTop="@+id/title"
+            android:layout_alignParentTop="true"
             android:layout_alignParentStart="true"
+            android:layout_alignBottom="@+id/buttonMore" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:id="@+id/buttonMore"
+            android:layout_alignParentEnd="true"
+            android:layout_toEndOf="@+id/title"
             android:layout_alignParentBottom="true" />
     </RelativeLayout>
 </LinearLayout>
