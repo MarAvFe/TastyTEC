@@ -607,7 +607,7 @@ int id action_menu_presenter 0x7f0c0003
 int id action_mode_bar 0x7f0c0057
 int id action_mode_bar_stub 0x7f0c0056
 int id action_mode_close_button 0x7f0c003c
-int id action_settings 0x7f0c0099
+int id action_settings 0x7f0c009a
 int id activity_chooser_view_content 0x7f0c003d
 int id alertTitle 0x7f0c0049
 int id always 0x7f0c0033
@@ -615,6 +615,7 @@ int id beginning 0x7f0c0031
 int id bottom 0x7f0c001d
 int id btnCompartir 0x7f0c0078
 int id buttonFavorite 0x7f0c006e
+int id buttonMore 0x7f0c0092
 int id buttonNew 0x7f0c006d
 int id buttonPanel 0x7f0c0044
 int id buttonTop 0x7f0c006f
@@ -674,13 +675,13 @@ int id media_actions 0x7f0c0085
 int id middle 0x7f0c0032
 int id mini 0x7f0c0030
 int id multiply 0x7f0c0027
-int id nav_camera 0x7f0c0092
-int id nav_desserts 0x7f0c0097
-int id nav_diners 0x7f0c0098
-int id nav_drinks 0x7f0c0096
-int id nav_gallery 0x7f0c0093
-int id nav_share 0x7f0c0095
-int id nav_slideshow 0x7f0c0094
+int id nav_camera 0x7f0c0093
+int id nav_desserts 0x7f0c0098
+int id nav_diners 0x7f0c0099
+int id nav_drinks 0x7f0c0097
+int id nav_gallery 0x7f0c0094
+int id nav_share 0x7f0c0096
+int id nav_slideshow 0x7f0c0095
 int id nav_view 0x7f0c006a
 int id navigation_header_container 0x7f0c007c
 int id never 0x7f0c0036
@@ -693,6 +694,7 @@ int id preparation 0x7f0c0076
 int id progress_circular 0x7f0c0006
 int id progress_horizontal 0x7f0c0007
 int id radio 0x7f0c0054
+int id recipeTitle 0x7f0c0071
 int id right 0x7f0c0024
 int id screen 0x7f0c0028
 int id scroll 0x7f0c0018
@@ -700,7 +702,7 @@ int id scrollIndicatorDown 0x7f0c004e
 int id scrollIndicatorUp 0x7f0c004b
 int id scrollView 0x7f0c004c
 int id scrollable 0x7f0c0039
-int id search 0x7f0c009a
+int id search 0x7f0c009b
 int id search_badge 0x7f0c005e
 int id search_bar 0x7f0c005d
 int id search_button 0x7f0c005f
@@ -737,7 +739,6 @@ int id thumbnail 0x7f0c0090
 int id time 0x7f0c0088
 int id title 0x7f0c0043
 int id title_template 0x7f0c0048
-int id tituloReceta 0x7f0c0071
 int id toolbar 0x7f0c006b
 int id top 0x7f0c0026
 int id topPanel 0x7f0c0047

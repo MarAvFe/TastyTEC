@@ -30,7 +30,8 @@
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/recetatitle"
         android:layout_marginTop="45dp"
-        android:id="@+id/tituloReceta" />
+        android:id="@+id/recipeTitle" />
+
 
 
     <FrameLayout

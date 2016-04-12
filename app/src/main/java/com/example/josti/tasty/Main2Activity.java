@@ -30,8 +30,10 @@ public class Main2Activity extends YouTubeBaseActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
+        Bundle extras = getIntent().getExtras();
+        TextView title = (TextView) findViewById(R.id.recipeTitle);
+        title.setText(extras.getString("RecipeName"));
+
         compartirUrl="http://www.youtube.com";
 
 
@@ -66,7 +68,7 @@ public class Main2Activity extends YouTubeBaseActivity{
         listIngredients = retornarIngredientes(ingredientes);
         listSteps = retornarPasos(pasos);
 
-        TextView tituloReceta = (TextView)findViewById(R.id.tituloReceta);
+        TextView tituloReceta = (TextView)findViewById(R.id.recipeTitle);
         ImageButton btnCompartir;
 
         tituloReceta.setText(receta.getName());
