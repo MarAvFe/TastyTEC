@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         ListView lv = (ListView) findViewById(R.id.listView);
         loadRecipeDefault();
@@ -85,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 dataName.clear();
                 dataDescription.clear();
-                for (int i = 0;i < 55; i ++){
+                for (int i = 0; i < 55; i++) {
                     dataName.add("Top " + i);
                     dataDescription.add("adsadasda sadasdads a" + i);
                 }
@@ -106,6 +108,16 @@ public class MainActivity extends AppCompatActivity {
         });
         */
 
+        /*
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.setDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+        */
     }
 
     private void loadRecipeDefault(){
@@ -145,6 +157,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    
     private class AdapterListView extends ArrayAdapter<String> {
         private int layout;
         private ArrayList<String> arr;
