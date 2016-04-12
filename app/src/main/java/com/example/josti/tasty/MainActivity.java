@@ -22,12 +22,22 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.example.josti.tasty.Ingredientes;
+
+import java.util.ArrayList;
 import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.client.RestTemplate;
 
 
 public class MainActivity extends AppCompatActivity implements OnClickListener, NavigationView.OnNavigationItemSelectedListener {
         Button buttonMore;
+
+    private String hostIp = "192.168.10.108";
+    private ArrayList<String> params = new ArrayList<String>();
+    //private enum returnType{//RECIPE: 0, RESULTADOS: 1};
+    private int returnTypeSelected = 1;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +48,13 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
         buttonMore = (Button) findViewById(R.id.buttonMore);
         buttonMore.setOnClickListener(this);
 
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                new HttpRequestTaskSteps().execute();
+            }
+        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -47,6 +64,11 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        //params.add("androidTest");
+        //params.add("getRecipe?nombre=Recipe 2");
+        //params.add("getIngredients?nombre=Recipe 2");
+        params.add("getSteps?nombre=Recipe 2");
     }
 
     @Override
@@ -123,32 +145,147 @@ public class MainActivity extends AppCompatActivity implements OnClickListener, 
     }
 
 
-    private class HttpRequestTask extends AsyncTask<Void, Void, wsConsume> {
+    /* ****** RECIPE ****** */
+    private class HttpRequestTaskRecipe extends AsyncTask<Void, Void, Recipe> {
         @Override
-        protected wsConsume doInBackground(Void... params) {
+        protected Recipe doInBackground(Void... params) {
             try {
-                final String url = "http://192.168.10.140:5003/androidTest";
+
+                final String url = "http://" + hostIp + ":5003/" + getParams4WS();
+                Log.v("ADRR", url);
                 RestTemplate restTemplate = new RestTemplate();
                 restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
-                wsConsume wsReturn = restTemplate.getForObject(url, wsConsume.class);
+                Log.v("HttpReq","Getting vals from WS...");
+                Recipe retorno = restTemplate.getForObject(url, Recipe.class);
                 Log.v("HttpReq","Got vals from WS");
-                return wsReturn;
+                return retorno;
             } catch (Exception e) {
                 Log.e("MainActivity", e.getMessage(), e);
             }
-
             return null;
         }
 
         @Override
-        protected void onPostExecute(wsConsume wsReturn) {
+        protected void onPostExecute(Recipe retorno) {
             TextView wsReturnIdText = (TextView) findViewById(R.id.val1);
             TextView wsReturnContentText = (TextView) findViewById(R.id.val2);
-            wsReturnIdText.setText(wsReturn.getVal1());
-            wsReturnContentText.setText(wsReturn.getVal2());
+            wsReturnIdText.setText(retorno.getName() + " " + retorno.getDescription());
+            wsReturnContentText.setText(retorno.getLinkYT() + " " + retorno.getShared());
         }
-
     }
 
+    /* ****** INGREDIENTES ****** */
+    private class HttpRequestTaskIngredientes extends AsyncTask<Void, Void, Ingredientes> {
+        @Override
+        protected Ingredientes doInBackground(Void... params) {
+            try {
+                final String url = "http://" + hostIp + ":5003/" + getParams4WS();
+                Log.v("ADRR", url);
+                RestTemplate restTemplate = new RestTemplate();
+                restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
+                Log.v("HttpReq","Getting vals from WS...");
+                Ingredientes retorno = restTemplate.getForObject(url, Ingredientes.class);
+                Log.v("HttpReq","Got vals from WS");
+                return retorno;
+            } catch (Exception e) {
+                Log.e("MainActivity", e.getMessage(), e);
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Ingredientes retorno) {
+            TextView wsReturnIdText = (TextView) findViewById(R.id.val1);
+            TextView wsReturnContentText = (TextView) findViewById(R.id.val2);
+            wsReturnIdText.setText(retorno.getLista().get(2));
+        }
+    }
+
+    /* ****** STEPS ****** */
+    private class HttpRequestTaskSteps extends AsyncTask<Void, Void, Steps> {
+        @Override
+        protected Steps doInBackground(Void... params) {
+            try {
+                final String url = "http://" + hostIp + ":5003/" + getParams4WS();
+                Log.v("ADRR", url);
+                RestTemplate restTemplate = new RestTemplate();
+                restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
+                Log.v("HttpReq","Getting vals from WS...");
+                Steps retorno = restTemplate.getForObject(url, Steps.class);
+                Log.v("HttpReq","Got vals from WS");
+                return retorno;
+            } catch (Exception e) {
+                Log.e("MainActivity", e.getMessage(), e);
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Steps retorno) {
+            TextView wsReturnIdText = (TextView) findViewById(R.id.val1);
+            TextView wsReturnContentText = (TextView) findViewById(R.id.val2);
+            wsReturnIdText.setText(retorno.getPasos().get(2));
+            wsReturnContentText.setText(retorno.getNumPaso().get(2));
+        }
+    }
+
+    /* ****** RESULTADOS ****** */
+    private class HttpRequestTaskResultados extends AsyncTask<Void, Void, Resultados> {
+        @Override
+        protected Resultados doInBackground(Void... params) {
+            try {
+                final String url = "http://" + hostIp + ":5003/" + getParams4WS();
+                RestTemplate restTemplate = new RestTemplate();
+                restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
+                Resultados retorno = restTemplate.getForObject(url, Resultados.class);
+                Log.v("HttpReq","Got vals from WS");
+                return retorno;
+            } catch (Exception e) {
+                Log.e("MainActivity", e.getMessage(), e);
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(Resultados retorno) {
+            TextView wsReturnIdText = (TextView) findViewById(R.id.val1);
+            TextView wsReturnContentText = (TextView) findViewById(R.id.val2);
+            wsReturnIdText.setText(":V");
+            wsReturnContentText.setText(":v");
+        }
+    }
+
+    /* ****** wsCONSUME ****** */
+    private class HttpRequestTaskWsConsume extends AsyncTask<Void, Void, wsConsume> {
+        @Override
+        protected wsConsume doInBackground(Void... params) {
+            try {
+                final String url = "http://" + hostIp + ":5003/" + getParams4WS();
+                RestTemplate restTemplate = new RestTemplate();
+                restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
+                wsConsume retorno = restTemplate.getForObject(url, wsConsume.class);
+                Log.v("HttpReq","Got vals from WS");
+                return retorno;
+            } catch (Exception e) {
+                Log.e("MainActivity", e.getMessage(), e);
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(wsConsume retorno) {
+            TextView wsReturnIdText = (TextView) findViewById(R.id.val1);
+            TextView wsReturnContentText = (TextView) findViewById(R.id.val2);
+            wsReturnIdText.setText(":V");
+            wsReturnContentText.setText(":v");
+        }
+    }
+
+    public String getParams4WS(){
+        String resultado = "";
+        for (String s : params)
+            resultado += s;
+        return resultado;
+    }
 
 }
