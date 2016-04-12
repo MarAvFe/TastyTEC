@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="C:\Users\josti\TastyTEC\app\src\androidTest\assets"/></dataSet></merger>
+=======
+<merger version="3"><dataSet config="main"><source path="/home/hackerman/Documents/Tasty/TastyTEC/app/src/androidTest/assets"/></dataSet></merger>
+>>>>>>> a4dacced23b950b29e9e5d64b80f18f1252ddbf0
