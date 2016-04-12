@@ -39,3 +39,6 @@ android {
         compile 'com.fasterxml.jackson.core:jackson-databind:2.3.2'
     }
 }
+dependencies {
+    compile 'com.android.support:support-v4:23.+'
+}

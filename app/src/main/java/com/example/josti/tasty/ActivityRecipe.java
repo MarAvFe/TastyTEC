@@ -30,7 +30,7 @@ public class ActivityRecipe extends YouTubeBaseActivity{
     private ArrayList pasos, ingredientes;
     private TextView tvSteps, tvIngredients, tituloReceta;
     private ImageButton btnCompartir;
-    private String hostIp = "192.168.10.145"; // La IP del host del WS. HINT: ifconfig | ipconfig
+    private String hostIp = MainActivity.getHostIp();
 
 
     private ShowRecipe fullRecipe ;
@@ -43,9 +43,6 @@ public class ActivityRecipe extends YouTubeBaseActivity{
         TextView title = (TextView) findViewById(R.id.recipeTitle);
         recipeName = extras.getString("RecipeName");
         title.setText(recipeName);
-
-
-
 
         Log.v("Recipe NAME", recipeName);
         // Cada una de estas es una petición de información al WS
@@ -138,7 +135,7 @@ public class ActivityRecipe extends YouTubeBaseActivity{
         this.fullRecipe = receta;
     }
 
-    public String getParams4WS(){
+    private String getParams4WS(){
         String resultado = "";
         for (String s : parames)
             resultado += s;
@@ -234,57 +231,11 @@ public class ActivityRecipe extends YouTubeBaseActivity{
             for(int i = 0; i < retorno.getPasos().size(); i++){
                 Apasos.add(retorno.getNumPaso().get(i) + " " + retorno.getPasos().get(i));
             }
-            //receta.setSteps(Apasos);
             Log.v("Paso",Apasos.toString());
             pasos = Apasos;
             queriesReady();
         }
     }
 
-    /* ****** RESULTADOS ****** */
-    private class HttpRequestTaskResultados extends AsyncTask<Void, Void, QueryResultLists> {
-        @Override
-        protected QueryResultLists doInBackground(Void... params) {
-            try {
-                final String url = "http://" + hostIp + ":5003/" + getParams4WS();
-                RestTemplate restTemplate = new RestTemplate();
-                restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
-                QueryResultLists retorno = restTemplate.getForObject(url, QueryResultLists.class);
-                Log.v("HttpReq","Got vals from WS");
-                return retorno;
-            } catch (Exception e) {
-                Log.e("MainActivity", e.getMessage(), e);
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(QueryResultLists retorno) {
-
-        }
-    }
-
-    /* ****** wsCONSUME ****** */
-    private class HttpRequestTaskWsConsume extends AsyncTask<Void, Void, wsConsume> {
-        @Override
-        protected wsConsume doInBackground(Void... params) {
-            try {
-                final String url = "http://" + hostIp + ":5003/" + getParams4WS();
-                RestTemplate restTemplate = new RestTemplate();
-                restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
-                wsConsume retorno = restTemplate.getForObject(url, wsConsume.class);
-                Log.v("HttpReq","Got vals from WS");
-                return retorno;
-            } catch (Exception e) {
-                Log.e("MainActivity", e.getMessage(), e);
-            }
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(wsConsume retorno) {
-
-        }
-    }
 
 }
