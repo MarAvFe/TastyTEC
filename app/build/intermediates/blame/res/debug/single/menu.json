@@ -4,6 +4,10 @@
         "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
+        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_favorite.xml",
+        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\menu\\menu_favorite.xml"
+    },
+    {
         "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
         "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     }
