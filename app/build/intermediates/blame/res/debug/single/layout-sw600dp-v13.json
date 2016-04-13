@@ -1,19 +1,6 @@
 [
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-=======
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout-sw600dp-v13/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
->>>>>>> a4dacced23b950b29e9e5d64b80f18f1252ddbf0
     }
 ]

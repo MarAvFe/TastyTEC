@@ -1,6 +1,13 @@
 [
     {
-<<<<<<< HEAD
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
@@ -13,8 +20,12 @@
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_new.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_new.png"
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_info.png"
+    },
+    {
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -29,255 +40,20 @@
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
-=======
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_new.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_new.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_top.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/drawable-hdpi/ic_top.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
->>>>>>> a4dacced23b950b29e9e5d64b80f18f1252ddbf0
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-=======
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_longpressed_holo.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
->>>>>>> a4dacced23b950b29e9e5d64b80f18f1252ddbf0
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_info.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_top.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_top.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_categories.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_categories.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-=======
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_top.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_top.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
->>>>>>> a4dacced23b950b29e9e5d64b80f18f1252ddbf0
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-<<<<<<< HEAD
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_favorite.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_favorite.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_info.png"
-    },
-    {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
@@ -292,8 +68,12 @@
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
@@ -302,88 +82,34 @@
     {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_light.9.png"
-=======
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_info.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_info.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_categories.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/drawable-hdpi/ic_categories.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
->>>>>>> a4dacced23b950b29e9e5d64b80f18f1252ddbf0
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
-    },
-    {
-<<<<<<< HEAD
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_favorite.png",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_favorite.png"
     },
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-=======
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
->>>>>>> a4dacced23b950b29e9e5d64b80f18f1252ddbf0
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_favorite.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_favorite.png"
-    },
-    {
-<<<<<<< HEAD
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
@@ -394,28 +120,24 @@
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_new.png",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_new.png"
     },
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_categories.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_categories.png"
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_top.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_top.png"
     },
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_categories.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_categories.png"
     },
     {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
@@ -426,171 +148,7 @@
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
-=======
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_focused_holo.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_favorite.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/drawable-hdpi/ic_favorite.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_categories.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\src\\main\\res\\drawable-hdpi\\ic_categories.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_16dp.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_new.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/drawable-hdpi/ic_new.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_info.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/drawable-hdpi/ic_info.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
->>>>>>> a4dacced23b950b29e9e5d64b80f18f1252ddbf0
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     }
 ]

@@ -1,6 +1,5 @@
 [
     {
-<<<<<<< HEAD
         "outputFile": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\values-h720dp-v13\\values-h720dp-v13.xml",
         "map": [
             {
@@ -13,57 +12,6 @@
                 },
                 "from": {
                     "file": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 66,
-                        "endOffset": 117
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\values-h720dp-v13\\values-h720dp-v13.xml",
-=======
-        "outputFile": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/values-h720dp-v13/values-h720dp-v13.xml",
->>>>>>> a4dacced23b950b29e9e5d64b80f18f1252ddbf0
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 66,
-                    "endOffset": 117
-                },
-                "from": {
-                    "file": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-h720dp-v13/values-h720dp-v13.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 66,
-                        "endOffset": 117
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\values-h720dp-v13\\values-h720dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 66,
-                    "endOffset": 117
-                },
-                "from": {
-                    "file": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

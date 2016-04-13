@@ -1,7 +1,10 @@
 package com.example.josti.tasty;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -9,6 +12,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,20 +21,32 @@ import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.youtube.player.YouTubeInitializationResult;
+import com.google.android.youtube.player.YouTubePlayer;
+import com.google.android.youtube.player.YouTubePlayerView;
+
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
+import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-    ArrayList<String> dataDescription = new ArrayList<String>();
-    ArrayList<String> dataName = new ArrayList<String>();
-    AdapterListView adapterListView;
-
+    private ArrayList<String> dataDescription = new ArrayList<String>();
+    private ArrayList<String> dataName = new ArrayList<String>();
+    private ListView lv;
+    private AdapterListView adapterListView;
+    private String recipeSearch;
+    private static ArrayList<String> parames = new ArrayList<String>();
+    //private static String hostIp = "192.168.43.211"; // La IP del host del WS. HINT: ifconfig | ipconfig
+    private static String hostIp = "192.168.0.101"; // La IP del host del WS. HINT: ifconfig | ipconfig
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,76 +64,41 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        ListView lv = (ListView) findViewById(R.id.listView);
-        loadRecipeDefault();
-        adapterListView = new AdapterListView(this, R.layout.recipe_item, dataName);
-        lv.setAdapter(adapterListView);
+        lv = (ListView) findViewById(R.id.listView);
+        refreshArrays(0);
 
         Button buttonNew = (Button) findViewById(R.id.buttonNew);
         buttonNew.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                dataName.clear();
-                dataDescription.clear();
-                for (int i = 0; i < 55; i++) {
-                    dataName.add("New " + i);
-                    dataDescription.add("adsadasda sadasdads a" + i);
-                }
-                adapterListView.notifyDataSetInvalidated();
+                refreshArrays(1);
             }
         });
         Button buttonFavorite = (Button) findViewById(R.id.buttonFavorite);
         buttonFavorite.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                dataName.clear();
-                dataDescription.clear();
-                for (int i = 0;i < 55; i ++){
-                    dataName.add("Favorite " + i);
-                    dataDescription.add("adsadasda sadasdads a" + i);
-                }
-                adapterListView.notifyDataSetInvalidated();
+                refreshArrays(2);
             }
         });
         Button buttonTop = (Button) findViewById(R.id.buttonTop);
         buttonTop.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                dataName.clear();
-                dataDescription.clear();
-                for (int i = 0; i < 55; i++) {
-                    dataName.add("Top " + i);
-                    dataDescription.add("adsadasda sadasdads a" + i);
-                }
-                adapterListView.notifyDataSetInvalidated();
+                refreshArrays(3);
             }
         });
 
+    }
 
-
-
-        /*
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
+    private void queriesReady(){
+        runOnUiThread(new Runnable() {
             @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, "List item was clicked at " + position, Toast.LENGTH_SHORT).show();
+            public void run() {
+                adapterListView = new AdapterListView(getContext(), R.layout.recipe_item, dataName);
+                lv.setAdapter(adapterListView);
             }
-
         });
-        */
-
-        /*
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-        drawer.setDrawerListener(toggle);
-        toggle.syncState();
-
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-        navigationView.setNavigationItemSelectedListener(this);
-*/
-
     }
 
     private void loadRecipeDefault(){
@@ -126,6 +107,36 @@ public class MainActivity extends AppCompatActivity
             dataDescription.add("adsadasda sadasdads adadsad asdadasad adasdadsada dsa" + i);
         }
 
+    }
+
+    public void refreshArrays(int type){
+        switch(type){
+            case 0: // All
+                parames = new ArrayList<String>();
+                parames.add("getRecipes?param=0");
+                new HttpRequestTaskResultList().execute();
+                break;
+            case 1: // New
+                parames = new ArrayList<String>();
+                parames.add("getRecipes?param=1");
+                new HttpRequestTaskResultList().execute();
+                break;
+            case 2: // Favorite
+                parames = new ArrayList<String>();
+                parames.add("getRecipes?param=2");
+                new HttpRequestTaskResultList().execute();
+                break;
+            case 3: // Top
+                parames = new ArrayList<String>();
+                parames.add("getRecipes?param=3");
+                new HttpRequestTaskResultList().execute();
+                break;
+            case 4: // Search
+                parames = new ArrayList<String>();
+                parames.add("getRecipes?param=4&criteria="+recipeSearch);
+                new HttpRequestTaskResultList().execute();
+                break;
+        }
     }
 
     @Override
@@ -154,10 +165,31 @@ public class MainActivity extends AppCompatActivity
             return true;
         }
 
+        if(id == R.id.search){
+            final EditText input = new EditText(MainActivity.this);
+            new AlertDialog.Builder(MainActivity.this)
+                    .setTitle("Search Recipe")
+                    .setMessage("Type something")
+                    .setView(input)
+                    .setPositiveButton("Search", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            recipeSearch=input.getText().toString();
+
+                            Log.v("search",recipeSearch);
+                            refreshArrays(4);
+                        }
+                    })
+                    .setNegativeButton("Can", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            // Do nothing
+                        }
+                    }).show();
+        }
+
         return super.onOptionsItemSelected(item);
     }
 
-    
+
     private class AdapterListView extends ArrayAdapter<String> {
         private int layout;
         private ArrayList<String> arr;
@@ -224,4 +256,60 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    /* ****** RESULTADOS ****** */
+    private class HttpRequestTaskResultList extends AsyncTask<Void, Void, QueryResultList> {
+        @Override
+        protected QueryResultList doInBackground(Void... params) {
+            try {
+                final String url = "http://" + hostIp + ":5003/" + getParams4WS();
+                Log.v("ADRR", url);
+                RestTemplate restTemplate = new RestTemplate();
+                restTemplate.getMessageConverters().add(new MappingJackson2HttpMessageConverter());
+                Log.v("HttpReq","Getting vals from ResulWS...");
+                QueryResultList retorno = restTemplate.getForObject(url, QueryResultList.class);
+                Log.v("HttpReq","Got vals from WS");
+                Log.v("HttpReq","Got:" + retorno.getNames().toString());
+                return retorno;
+            } catch (Exception e) {
+                Log.e("MainActivity", e.getMessage(), e);
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(QueryResultList retorno) {
+            QueryResultList results = new QueryResultList();
+            results.setNames(retorno.getNames());
+            results.setDescriptions(retorno.getDescriptions());
+            results.setLinks(retorno.getLinks());
+
+            dataName.clear();
+            dataDescription.clear();
+            for(int i = 0; i < results.getNames().size(); i++){
+                dataName.add(results.getNames().get(i));
+                dataDescription.add(results.getDescriptions().get(i));
+            }
+            queriesReady();
+        }
+    }
+
+    public static String getHostIp() {
+        return hostIp;
+    }
+
+    public static void setHostIp(String hostIp) {
+        MainActivity.hostIp = hostIp;
+    }
+
+    private String getParams4WS(){
+        String resultado = "";
+        for (String s : parames)
+            resultado += s;
+        return resultado;
+    }
+
+    private MainActivity getContext(){
+        return this;
+    };
 }

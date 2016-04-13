@@ -1,19 +1,6 @@
 [
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-v23\\abc_control_background_material.xml"
-    },
-    {
-        "merged": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-v23\\abc_control_background_material.xml"
-=======
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/drawable-v23/abc_control_background_material.xml"
-    },
-    {
-        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "/home/hackerman/Documents/Tasty/TastyTEC/D:\\Uni\\VSemestre\\Reque\\Proyecto 1\\git\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.0\\res\\drawable-v23\\abc_control_background_material.xml"
->>>>>>> a4dacced23b950b29e9e5d64b80f18f1252ddbf0
     }
 ]
