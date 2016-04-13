@@ -17,7 +17,7 @@
         <item
             android:id="@+id/nav_share"
             android:icon="@drawable/ic_info"
-            android:title="About" />
+            android:title="WebService IP" />
     </group>
 
     <item android:title="Categories">

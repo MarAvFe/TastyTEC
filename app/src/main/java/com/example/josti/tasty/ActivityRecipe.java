@@ -3,6 +3,11 @@ package com.example.josti.tasty;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
@@ -18,7 +23,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 
-public class ActivityRecipe extends YouTubeBaseActivity{
+public class ActivityRecipe extends YouTubeBaseActivity {
 
     private YouTubePlayerView youTubePlayerView;
     private YouTubePlayer.OnInitializedListener onInitializedListener;
@@ -39,6 +44,7 @@ public class ActivityRecipe extends YouTubeBaseActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+
         Bundle extras = getIntent().getExtras();
         TextView title = (TextView) findViewById(R.id.recipeTitle);
         recipeName = extras.getString("RecipeName");
@@ -79,6 +85,7 @@ public class ActivityRecipe extends YouTubeBaseActivity{
                 listSteps = retornarPasos(fullRecipe.getSteps());
                 listIngredients = retornarIngredientes(fullRecipe.getIngredients());
                 tituloReceta.setText(fullRecipe.getName());
+                setTitle(fullRecipe.getName());
                 tvIngredients.setText(listIngredients);
                 tvSteps.setText(listSteps);
                 compartirUrl="https://www.youtube.com/watch?v=" + fullRecipe.getLink();
