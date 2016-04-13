@@ -166,7 +166,8 @@ public class ActivityRecipe extends YouTubeBaseActivity {
                 Log.v("HttpReq","Got vals from WS");
                 return retorno;
             } catch (Exception e) {
-                Log.e("MainActivity", e.getMessage(), e);
+                //Log.e("MainActivity", e.getMessage(), e);
+                Log.e("GETRECIPE", "Error de Conexión manejado");
             }
             return null;
         }
@@ -200,7 +201,8 @@ public class ActivityRecipe extends YouTubeBaseActivity {
                 Log.v("HttpReq","Got:" + retorno.getLista().toString());
                 return retorno;
             } catch (Exception e) {
-                Log.e("MainActivity", e.getMessage(), e);
+                //Log.e("MainActivity", e.getMessage(), e);
+                Log.e("GETINGREDIENTS", "Error de Conexión manejado");
             }
             return null;
         }
@@ -230,7 +232,8 @@ public class ActivityRecipe extends YouTubeBaseActivity {
                 Log.v("HttpReq","Got vals from WS");
                 return retorno;
             } catch (Exception e) {
-                Log.e("MainActivity", e.getMessage(), e);
+                //Log.e("MainActivity", e.getMessage(), e);
+                Log.e("GETSTEPS", "Error de Conexión manejado");
             }
             return null;
         }
