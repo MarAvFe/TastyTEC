@@ -2300,6 +2300,10 @@ containing a value of this type.
         public static final int side_nav_bar=0x7f02005b;
     }
     public static final class id {
+        public static final int Favortie=0x7f0e0094;
+        public static final int New=0x7f0e0092;
+        public static final int Top=0x7f0e0093;
+        public static final int WenServiceIP=0x7f0e0095;
         public static final int action0=0x7f0e0081;
         public static final int action_bar=0x7f0e005a;
         public static final int action_bar_activity_content=0x7f0e0000;
@@ -2382,13 +2386,9 @@ containing a value of this type.
         public static final int middle=0x7f0e0032;
         public static final int mini=0x7f0e0030;
         public static final int multiply=0x7f0e0027;
-        public static final int nav_camera=0x7f0e0092;
         public static final int nav_desserts=0x7f0e0097;
         public static final int nav_diners=0x7f0e0098;
         public static final int nav_drinks=0x7f0e0096;
-        public static final int nav_gallery=0x7f0e0093;
-        public static final int nav_share=0x7f0e0095;
-        public static final int nav_slideshow=0x7f0e0094;
         public static final int nav_view=0x7f0e006a;
         public static final int navigation_header_container=0x7f0e007b;
         public static final int never=0x7f0e0036;

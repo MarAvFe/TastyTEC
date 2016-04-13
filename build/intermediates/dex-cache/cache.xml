@@ -1,2 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/home/hackerman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.3.2/c75edc740a6d8cb1cef6fa82fa594e0bce561916/jackson-databind-2.3.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c75edc740a6d8cb1cef6fa82fa594e0bce561916">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/jackson-databind-2.3.2_841290cec905e3445411a02f38a1dbf9b0c6bc00.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-rest-template/1.0.1.RELEASE/e132d929bd181941f79b0d63edafb8a86ae6fd33/spring-android-rest-template-1.0.1.RELEASE.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e132d929bd181941f79b0d63edafb8a86ae6fd33">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/spring-android-rest-template-1.0.1.RELEASE_31131f6be687b6c2327355a21266ad5df0e1a818.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/.gradle/caches/modules-2/files-2.1/org.springframework.android/spring-android-core/1.0.1.RELEASE/e68f0e8e4b636ee30c4de58953be38d9b72a5e3b/spring-android-core-1.0.1.RELEASE.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e68f0e8e4b636ee30c4de58953be38d9b72a5e3b">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/spring-android-core-1.0.1.RELEASE_70f05f90932c4caa377e882f07ceac8db9e8b309.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/Documents/Tasty/TastyTEC/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_424443cb290c4bafcd0aca24381db942dd3e5fce.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.3.0/f5e853a20b60758922453d56f9ae1e64af5cb3da/jackson-annotations-2.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f5e853a20b60758922453d56f9ae1e64af5cb3da">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.3.0_57290e16ddbb1dda5ca3126ed20cc2ce7f66b199.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/internal_impl-23.3.0_8e04d3fb874c8e62b3504da1b66d009099c56efa.jar" />
+    </item>
+    <item
+        jar="/media/hackerman/ExtraDrive/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/support-annotations-23.3.0_ebe406e7d2a07d7c23c184dab99b224781c894a2.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_000a46fa88ed17ddd23a2e842696050e61a37a4d.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/design/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.2.0_562458358b050435d27a041682725a1f6f5a9b70.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_9b8bb37f927db5ddf7c6977b7f8dc7e70c260fd3.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.3.2/559b70ac8a0d5cad611da4223137a920147201ba/jackson-core-2.3.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="559b70ac8a0d5cad611da4223137a920147201ba">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/jackson-core-2.3.2_31cfe03c7a03d09a4cc9fd9aab4283c75f06c711.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_9d76941dd163562f2fd19cebb20beb60768cb53b.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.3.0_5f45848478e4dd6ef5f4a95481bc44e836f51eda.jar" />
+    </item>
+    <item
+        jar="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.0_66e3cc95ef37380cd4f1c307b2d526f1b91dcfab.jar" />
+    </item>
+
+</items>

@@ -185,7 +185,6 @@ public class MainActivity extends AppCompatActivity
                     .setPositiveButton("Search", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int whichButton) {
                             recipeSearch=input.getText().toString();
-                            //recipeSearch = recipeSearch.replace(" ","%20");
                             Log.v("search",recipeSearch);
                             refreshArrays(4);
                         }
@@ -266,13 +265,16 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            Toast.makeText(MainActivity.this, "Camera?", Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.nav_gallery) {
-            Toast.makeText(MainActivity.this, "gallery?", Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.nav_slideshow) {
-            Toast.makeText(MainActivity.this, "slideshow?", Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.nav_share) {
+        if (id == R.id.New) {
+            refreshArrays(1);
+
+        } else if (id == R.id.Favortie) {
+            refreshArrays(2);
+
+        } else if (id == R.id.Top) {
+            refreshArrays(3);
+
+        } else if (id == R.id.WenServiceIP) {
             final EditText input = new EditText(MainActivity.this);
             new AlertDialog.Builder(MainActivity.this)
                     .setTitle("Change HostIp")
