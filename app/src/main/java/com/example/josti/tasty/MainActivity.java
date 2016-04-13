@@ -41,6 +41,8 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
 
 public class MainActivity extends AppCompatActivity
@@ -52,7 +54,7 @@ public class MainActivity extends AppCompatActivity
     private String recipeSearch;
     private static ArrayList<String> parames = new ArrayList<String>();
 
-    private static String hostIp = "192.168.0.101"; // La IP del host del WS. HINT: ifconfig | ipconfig
+    private static String hostIp = "192.168.10.149"; // La IP del host del WS. HINT: ifconfig | ipconfig
     //private static String hostIp = "192.168.10.148"; // La IP del host del WS. HINT: ifconfig | ipconfig
 
 
@@ -73,7 +75,7 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         lv = (ListView) findViewById(R.id.listView);
-        refreshArrays(0);
+        refreshArrays(1);
 
         Button buttonNew = (Button) findViewById(R.id.buttonNew);
         buttonNew.setOnClickListener(new OnClickListener() {
@@ -96,7 +98,6 @@ public class MainActivity extends AppCompatActivity
                 refreshArrays(3);
             }
         });
-
     }
 
     private void queriesReady(){
@@ -171,6 +172,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            refreshArrays(1);
             return true;
         }
 
@@ -178,17 +180,17 @@ public class MainActivity extends AppCompatActivity
             final EditText input = new EditText(MainActivity.this);
             new AlertDialog.Builder(MainActivity.this)
                     .setTitle("Search Recipe")
-                    .setMessage("Type something")
+                    .setMessage("Type something. No spaces.")
                     .setView(input)
                     .setPositiveButton("Search", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int whichButton) {
                             recipeSearch=input.getText().toString();
-                            recipeSearch = recipeSearch.replace(" ","%20");
+                            //recipeSearch = recipeSearch.replace(" ","%20");
                             Log.v("search",recipeSearch);
                             refreshArrays(4);
                         }
                     })
-                    .setNegativeButton("Can", new DialogInterface.OnClickListener() {
+                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int whichButton) {
                             // Do nothing
                         }
@@ -274,15 +276,16 @@ public class MainActivity extends AppCompatActivity
             final EditText input = new EditText(MainActivity.this);
             new AlertDialog.Builder(MainActivity.this)
                     .setTitle("Change HostIp")
-                    .setMessage("Type new Ip Address")
+                    .setMessage("Type new Ip Address (" + MainActivity.getHostIp() + ")")
                     .setView(input)
                     .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int whichButton) {
-                            MainActivity.setHostIp( input.getText().toString() );
-                            Log.i("GotIP", input.getText().toString());
+                            MainActivity.setHostIp( input.getText().toString().replace(" ","") );
+                            refreshArrays(1);
+                            //Log.i("GotIP", input.getText().toString());
                         }
                     })
-                    .setNegativeButton("Can", new DialogInterface.OnClickListener() {
+                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int whichButton) {
                             // Do nothing
                         }
@@ -309,25 +312,29 @@ public class MainActivity extends AppCompatActivity
                 Log.v("HttpReq","Got:" + retorno.getNames().toString());
                 return retorno;
             } catch (Exception e) {
-                Log.e("MainActivity", e.getMessage(), e);
+                Log.e("ResLiFail", e.getMessage(), e);
             }
             return null;
         }
 
         @Override
         protected void onPostExecute(QueryResultList retorno) {
-            QueryResultList results = new QueryResultList();
-            results.setNames(retorno.getNames());
-            results.setDescriptions(retorno.getDescriptions());
-            results.setLinks(retorno.getLinks());
+            if(retorno != null){
+                QueryResultList results = new QueryResultList();
+                results.setNames(retorno.getNames());
+                results.setDescriptions(retorno.getDescriptions());
+                results.setLinks(retorno.getLinks());
 
-            dataName.clear();
-            dataDescription.clear();
-            for(int i = 0; i < results.getNames().size(); i++){
-                dataName.add(results.getNames().get(i));
-                dataDescription.add(results.getDescriptions().get(i));
+                dataName.clear();
+                dataDescription.clear();
+                for(int i = 0; i < results.getNames().size(); i++){
+                    dataName.add(results.getNames().get(i));
+                    dataDescription.add(results.getDescriptions().get(i));
+                }
+                queriesReady();
+            }else{
+                Toast.makeText(MainActivity.this, "Error de conexión. Compruebe el HostIP", Toast.LENGTH_LONG).show();
             }
-            queriesReady();
         }
     }
 
@@ -358,4 +365,5 @@ public class MainActivity extends AppCompatActivity
         editText.setCursorVisible(false);
         editText.setKeyListener(null);
     }
+
 }

@@ -309,7 +309,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">Refresh</string>
     <string name="app_name">Tasty</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
@@ -317,14 +317,7 @@
     <string name="content_label">content_label</string>
     <string name="direccionURL">http://www.youtube.com</string>
     <string name="id_label">id_label</string>
-    <string name="ingredients">2 tablespoons canola oil \n
-                                1 red pepper, diced \n
-                                1 green pepper, diced \n
-                                1 yellow pepper, diced \n
-                                1 onion, diced \n
-                                1 teaspoon Kosher salt \n
-                                1 teaspoon freshly ground black pepper \n
-                                4 ounces cream cheese \n</string>
+    <string name="ingredients">---No ingredients---</string>
     <string name="ingredientstitle">Here is what you will need:</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -433,15 +426,7 @@
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <string name="pref_title_system_sync_settings">System sync settings</string>
     <string name="pref_title_vibrate">Vibrate</string>
-    <string name="preparation">Heat the canola oil in a pan over high heat. Cook the peppers, onion, salt, and pepper until soft and slightly caramelized. Transfer the cooked veggies to a bowl.
-                            In the same bowl, mix in the cream cheese, cheddar, and pepper jack, stirring until evenly incorporated. Set aside.\n\n
-
-                            In a separate bowl, combine the chicken with the salt, chili powder, cumin, and garlic powder, evenly distributing the spices over the chicken.\n\n
-
-                            On a cutting board, slice a pocket in the chicken horizontally and fill the pocket with a heaping spoonful of the veggie mixture. Press the edges of the chicken together to seal in the filling. Repeat with the remaining chicken.\n\n
-
-                            Heat the canola oil in a pan over medium heat. Cook the stuffed chicken for five minutes on each side, until cheese is melted and chicken is cooked through.
-                            Serve with salsa, sour cream, and guacamole!\n</string>
+    <string name="preparation">---No steps---</string>
     <string name="preparationtitle">Preparation</string>
     <string name="recetatitle">This Is The Only Way You Should Be Stuffing Your Chicken</string>
     <string name="status_bar_notification_info_overflow">999+</string>

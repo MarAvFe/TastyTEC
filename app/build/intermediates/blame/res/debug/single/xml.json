@@ -1,22 +1,42 @@
 [
     {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\xml\\pref_notification.xml"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\xml\\pref_notification.xml"
     },
     {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\xml\\pref_general.xml"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/xml/pref_notification.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/xml/pref_notification.xml"
     },
     {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\xml\\searchable.xml"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/xml/pref_data_sync.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/xml/pref_data_sync.xml"
     },
     {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\xml\\pref_general.xml"
     },
     {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\xml\\pref_headers.xml"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/xml/searchable.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/xml/searchable.xml"
+    },
+    {
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\searchable.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/xml/pref_general.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/xml/pref_general.xml"
+    },
+    {
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+    },
+    {
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\xml\\pref_headers.xml"
+    },
+    {
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/xml/pref_headers.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/xml/pref_headers.xml"
     }
 ]

@@ -1,14 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_favorite.xml",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\menu\\menu_favorite.xml"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_favorite.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\menu\\menu_favorite.xml"
     },
     {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\menu\\main.xml"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
-        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/menu/menu_favorite.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/menu/menu_favorite.xml"
+    },
+    {
+        "merged": "/home/hackerman/Documents/Tasty/TastyTEC/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/hackerman/Documents/Tasty/TastyTEC/app/src/main/res/menu/main.xml"
     }
 ]

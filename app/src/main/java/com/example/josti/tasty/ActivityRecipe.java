@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
@@ -172,11 +173,13 @@ public class ActivityRecipe extends YouTubeBaseActivity {
 
         @Override
         protected void onPostExecute(QueryRecipe retorno) {
-            receta = new QueryRecipe();
-            receta.setName(retorno.getName());
-            receta.setDescription(retorno.getDescription());
-            receta.setLinkYT(retorno.getLinkYT());
-            receta.setShared(retorno.getShared());
+            if(retorno != null){
+                receta = new QueryRecipe();
+                receta.setName(retorno.getName());
+                receta.setDescription(retorno.getDescription());
+                receta.setLinkYT(retorno.getLinkYT());
+                receta.setShared(retorno.getShared());
+            }
         }
     }
 
@@ -204,8 +207,10 @@ public class ActivityRecipe extends YouTubeBaseActivity {
 
         @Override
         protected void onPostExecute(QueryIngredientes retorno) {
-            ingredientes = new ArrayList<String>();
-            ingredientes = retorno.getLista();
+            if(retorno != null){
+                ingredientes = new ArrayList<String>();
+                ingredientes = retorno.getLista();
+            }
         }
     }
 
@@ -227,20 +232,23 @@ public class ActivityRecipe extends YouTubeBaseActivity {
             } catch (Exception e) {
                 Log.e("MainActivity", e.getMessage(), e);
             }
-
             return null;
         }
 
         @Override
         protected void onPostExecute(QuerySteps retorno) {
-            pasos = new ArrayList<String>();
-            ArrayList<String> Apasos = new ArrayList<String>();
-            for(int i = 0; i < retorno.getPasos().size(); i++){
-                Apasos.add(retorno.getNumPaso().get(i) + " " + retorno.getPasos().get(i));
+            if(retorno != null){
+                pasos = new ArrayList<String>();
+                ArrayList<String> Apasos = new ArrayList<String>();
+                for(int i = 0; i < retorno.getPasos().size(); i++){
+                    Apasos.add(retorno.getNumPaso().get(i) + " " + retorno.getPasos().get(i));
+                }
+                Log.v("Paso",Apasos.toString());
+                pasos = Apasos;
+                queriesReady();
+            }else{
+                Toast.makeText(ActivityRecipe.this, "Error de conexión. Compruebe el HostIP", Toast.LENGTH_LONG).show();
             }
-            Log.v("Paso",Apasos.toString());
-            pasos = Apasos;
-            queriesReady();
         }
     }
 
