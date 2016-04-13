@@ -19,6 +19,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -26,6 +27,11 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.EditText;
+import android.widget.AdapterView.OnItemClickListener;
+import android.text.TextUtils.TruncateAt;
+import android.content.DialogInterface;
+import android.app.AlertDialog;
 
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
@@ -45,8 +51,10 @@ public class MainActivity extends AppCompatActivity
     private AdapterListView adapterListView;
     private String recipeSearch;
     private static ArrayList<String> parames = new ArrayList<String>();
-    //private static String hostIp = "192.168.43.211"; // La IP del host del WS. HINT: ifconfig | ipconfig
+
     private static String hostIp = "192.168.0.101"; // La IP del host del WS. HINT: ifconfig | ipconfig
+    //private static String hostIp = "192.168.10.148"; // La IP del host del WS. HINT: ifconfig | ipconfig
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +100,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void queriesReady(){
+        Log.i("QuerReady","Passing by");
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -174,7 +183,7 @@ public class MainActivity extends AppCompatActivity
                     .setPositiveButton("Search", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int whichButton) {
                             recipeSearch=input.getText().toString();
-
+                            recipeSearch = recipeSearch.replace(" ","%20");
                             Log.v("search",recipeSearch);
                             refreshArrays(4);
                         }
@@ -190,7 +199,10 @@ public class MainActivity extends AppCompatActivity
     }
 
 
-    private class AdapterListView extends ArrayAdapter<String> {
+
+    
+    private class AdapterListView extends ArrayAdapter<String> implements AdapterView.OnItemClickListener{
+
         private int layout;
         private ArrayList<String> arr;
         public AdapterListView(Context context, int resource, ArrayList<String> objects) {
@@ -199,7 +211,13 @@ public class MainActivity extends AppCompatActivity
         }
 
         @Override
-        public View getView(final int position, View convertView, ViewGroup parent) {
+        public boolean areAllItemsEnabled() {return true;}
+
+        @Override
+        public boolean isEnabled(int arg0) {return true;}
+
+        @Override
+        public View getView(final int position, View convertView, final ViewGroup parent) {
             ViewHolder mainViewHolder = null;
             if (convertView == null){
                 LayoutInflater inflater = LayoutInflater.from(getContext());
@@ -208,14 +226,13 @@ public class MainActivity extends AppCompatActivity
                 viewHolder.thumbnail = (ImageView) convertView.findViewById(R.id.thumbnail);
                 viewHolder.title = (TextView) convertView.findViewById(R.id.title);
                 viewHolder.description = (TextView) convertView.findViewById(R.id.description);
-                viewHolder.button = (Button) convertView.findViewById(R.id.buttonMore);
                 convertView.setTag(viewHolder);
+                disableEditText(viewHolder.title);
             }
+
             mainViewHolder = (ViewHolder) convertView.getTag();
-            mainViewHolder.button.setOnClickListener(new View.OnClickListener() {
-                @Override
+            convertView.setOnClickListener(new OnClickListener() {
                 public void onClick(View v) {
-                    //Toast.makeText(getContext(), dataName.get(position), Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(MainActivity.this,ActivityRecipe.class);
                     intent.putExtra("RecipeName",dataName.get(position));
                     startActivity(intent);
@@ -223,10 +240,15 @@ public class MainActivity extends AppCompatActivity
             });
             mainViewHolder.title.setText(dataName.get(position));
             mainViewHolder.description.setText(dataDescription.get(position));
+            mainViewHolder.description.setLines(2);
+            mainViewHolder.description.setMaxLines(3);
             return convertView;
         }
 
-
+        @Override
+        public void onItemClick(AdapterView<?> arg0, View v, int position, long arg3) {
+            Toast.makeText(MainActivity.this, "Triggered3-pos:"+position, Toast.LENGTH_SHORT).show();
+        }
     }
 
     public class ViewHolder{
@@ -249,7 +271,22 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_slideshow) {
             Toast.makeText(MainActivity.this, "slideshow?", Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_share) {
-            Toast.makeText(MainActivity.this, "share?", Toast.LENGTH_SHORT).show();
+            final EditText input = new EditText(MainActivity.this);
+            new AlertDialog.Builder(MainActivity.this)
+                    .setTitle("Change HostIp")
+                    .setMessage("Type new Ip Address")
+                    .setView(input)
+                    .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            MainActivity.setHostIp( input.getText().toString() );
+                            Log.i("GotIP", input.getText().toString());
+                        }
+                    })
+                    .setNegativeButton("Can", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int whichButton) {
+                            // Do nothing
+                        }
+                    }).show();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -294,6 +331,7 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+
     public static String getHostIp() {
         return hostIp;
     }
@@ -312,4 +350,12 @@ public class MainActivity extends AppCompatActivity
     private MainActivity getContext(){
         return this;
     };
+
+    private void disableEditText(TextView editText2) {
+        EditText editText = (EditText) editText2;
+        editText.setFocusable(false);
+        editText.setEnabled(true);
+        editText.setCursorVisible(false);
+        editText.setKeyListener(null);
+    }
 }
