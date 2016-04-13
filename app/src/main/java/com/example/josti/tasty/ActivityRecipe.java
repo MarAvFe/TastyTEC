@@ -23,6 +23,7 @@ import org.springframework.http.converter.json.MappingJackson2HttpMessageConvert
 import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
+import android.view.KeyEvent;
 
 public class ActivityRecipe extends YouTubeBaseActivity {
 
@@ -64,6 +65,14 @@ public class ActivityRecipe extends YouTubeBaseActivity {
 
     }
 
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+        if ((keyCode == KeyEvent.KEYCODE_BACK)) {
+            finish();
+        }
+        return super.onKeyDown(keyCode, event);
+    }
+
     /*
     Las acciones del constructor que requieran de la consulta de datos del WS
     se pasan a este hilo queriesReady, para agruparlas y asegurarse que la
@@ -87,8 +96,8 @@ public class ActivityRecipe extends YouTubeBaseActivity {
                 listIngredients = retornarIngredientes(fullRecipe.getIngredients());
                 tituloReceta.setText(fullRecipe.getName());
                 setTitle(fullRecipe.getName());
-                tvIngredients.setText(listIngredients);
-                tvSteps.setText(listSteps);
+                tvIngredients.setText(listSteps);
+                tvSteps.setText(listIngredients);
                 compartirUrl="https://www.youtube.com/watch?v=" + fullRecipe.getLink();
                 btnCompartir.setOnClickListener(new View.OnClickListener() {
                     @Override

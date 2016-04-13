@@ -67,10 +67,9 @@ public class MainActivity extends AppCompatActivity
     private AdapterListView adapterListView;
     private String recipeSearch;
     private static ArrayList<String> parames = new ArrayList<String>();
-
+    private String category;
     private static String hostIp = "192.168.10.148"; // La IP del host del WS. HINT: ifconfig | ipconfig
-    //private static String hostIp = "192.168.10.148"; // La IP del host del WS. HINT: ifconfig | ipconfig
-
+    //private static String hostIp = "192.168.10.149"; // La IP del host del WS. HINT: ifconfig | ipconfig
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,6 +89,8 @@ public class MainActivity extends AppCompatActivity
 
         lv = (ListView) findViewById(R.id.listView);
         refreshArrays(1);
+
+        //category = ;
 
         Button buttonNew = (Button) findViewById(R.id.buttonNew);
         buttonNew.setOnClickListener(new OnClickListener() {
@@ -304,6 +305,23 @@ public class MainActivity extends AppCompatActivity
                         }
                     }).show();
         }
+        else if (id == R.id.nav_drinks){
+            Intent intent = new Intent(MainActivity.this,CategoryActivity.class);
+            intent.putExtra("Category","Drinks");
+            startActivity(intent);
+        }
+
+        else if (id == R.id.nav_desserts){
+            Intent intent = new Intent(MainActivity.this,CategoryActivity.class);
+            intent.putExtra("Category","Desserts");
+            startActivity(intent);
+        }
+
+        else if (id == R.id.nav_diners){
+            Intent intent = new Intent(MainActivity.this,CategoryActivity.class);
+            intent.putExtra("Category","Dinners");
+            startActivity(intent);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
@@ -348,8 +366,8 @@ public class MainActivity extends AppCompatActivity
                     dataDescription.add(results.getDescriptions().get(i));
                     dataLink.add(results.getLinks().get(i));
                 }
-                new LoadRecipesThumbs().execute();
                 queriesReady();
+                new LoadRecipesThumbs().execute();
             }else{
                 Toast.makeText(MainActivity.this, "Error de conexión. Compruebe el HostIP", Toast.LENGTH_LONG).show();
             }
@@ -360,9 +378,10 @@ public class MainActivity extends AppCompatActivity
     private class LoadRecipesThumbs extends AsyncTask<Void, Void, Boolean> {
         @Override
         protected Boolean doInBackground(Void... params) {
+            dataThumbs.clear();
             for(String s : dataLink){
                 try{
-                    url = new URL("http://img.youtube.com/vi/" + s + "/1.jpg");
+                    url = new URL("http://img.youtube.com/vi/" + s + "/1.jpg");// ''http://img.youtube.com/vi/ZrvAjkDqDYM/1.jpg
                     bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
                     dataThumbs.add(bmp);
                 }catch(MalformedURLException ex){
@@ -376,13 +395,9 @@ public class MainActivity extends AppCompatActivity
 
         @Override
         protected void onPostExecute(Boolean retorno) {
-            if(retorno){
-                for(int i = 0; i < arr.size(); i++){
+                for(int i = 0; i < dataThumbs.size(); i++){
                     arr.get(i).thumbnail.setImageBitmap(dataThumbs.get(i));
                 }
-            }else{
-                Toast.makeText(MainActivity.this, "Error al obtener las imagenes", Toast.LENGTH_LONG).show();
-            }
         }
     }
 

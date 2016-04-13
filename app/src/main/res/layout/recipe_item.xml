@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/title"
             android:text="Chicken"
+            android:textSize="14dp"
             android:layout_alignParentTop="true"
             android:layout_toEndOf="@+id/thumbnail"
             android:textStyle="bold" />
