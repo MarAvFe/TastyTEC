@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity
     private AdapterListView adapterListView;
     private String recipeSearch;
     private static ArrayList<String> parames = new ArrayList<String>();
+    private String category;
 
     private static String hostIp = "192.168.0.101"; // La IP del host del WS. HINT: ifconfig | ipconfig
     //private static String hostIp = "192.168.10.148"; // La IP del host del WS. HINT: ifconfig | ipconfig
@@ -74,6 +75,8 @@ public class MainActivity extends AppCompatActivity
 
         lv = (ListView) findViewById(R.id.listView);
         refreshArrays(0);
+
+        //category = ;
 
         Button buttonNew = (Button) findViewById(R.id.buttonNew);
         buttonNew.setOnClickListener(new OnClickListener() {
@@ -290,6 +293,23 @@ public class MainActivity extends AppCompatActivity
                             // Do nothing
                         }
                     }).show();
+        }
+        else if (id == R.id.nav_drinks){
+            Intent intent = new Intent(MainActivity.this,CategoryActivity.class);
+            intent.putExtra("Category","Drinks");
+            startActivity(intent);
+        }
+
+        else if (id == R.id.nav_desserts){
+            Intent intent = new Intent(MainActivity.this,CategoryActivity.class);
+            intent.putExtra("Category","Desserts");
+            startActivity(intent);
+        }
+
+        else if (id == R.id.nav_diners){
+            Intent intent = new Intent(MainActivity.this,CategoryActivity.class);
+            intent.putExtra("Category","Dinner");
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

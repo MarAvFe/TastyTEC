@@ -144,6 +144,10 @@
         "source": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.2.0\\res\\layout\\design_navigation_item_header.xml"
     },
     {
+        "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_category.xml",
+        "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\layout\\activity_category.xml"
+    },
+    {
         "merged": "C:\\Users\\josti\\TastyTEC\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
         "source": "C:\\Users\\josti\\TastyTEC\\app\\src\\main\\res\\layout\\content_main.xml"
     },
